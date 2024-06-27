@@ -1,5 +1,5 @@
-from utils.supabase import supa
 from user.models import UserAuth, UserSession, UserTokens
+from utils.supabase import supa
 
 
 def sign_up(credentials: UserAuth) -> UserSession:

@@ -1,9 +1,8 @@
 from pydantic import BaseModel
-from uuid import UUID
+from utils.models import DBBase
 
 
-class User(BaseModel):
-    id: UUID
+class User(DBBase):
     email: str
 
 
