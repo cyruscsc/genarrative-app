@@ -1,4 +1,4 @@
-from supa import supa
+from utils.supabase import supa
 from user.models import UserAuth, UserSession, UserTokens
 
 
