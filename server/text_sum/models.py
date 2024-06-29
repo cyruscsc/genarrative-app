@@ -8,7 +8,6 @@ class TextSumInput(BaseModel):
 
 
 class TextSumCompletion(BaseModel):
-    title: str
     summary: str
 
 

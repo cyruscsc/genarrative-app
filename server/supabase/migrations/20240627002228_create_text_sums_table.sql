@@ -1,6 +1,5 @@
 create table public.text_sums (
     id uuid default gen_random_uuid () primary key,
-    title varchar,
     content text,
     summary text,
     created_by uuid references auth.users on delete cascade,
