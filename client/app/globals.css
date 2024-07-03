@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  * {
+    @apply text-storm-700;
+  }
+  body {
+    @apply bg-storm-100;
+  }
+}
