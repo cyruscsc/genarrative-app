@@ -7,6 +7,6 @@
     @apply text-storm-700;
   }
   body {
-    @apply bg-storm-100;
+    @apply bg-storm-100 text-sm;
   }
 }
