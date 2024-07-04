@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from text_sum import app as text_sum_app
 from user.router import router as user_router
 
-app = FastAPI()
+app = FastAPI(root_path="/api")
 
 app.include_router(user_router, prefix="/user", tags=["user"])
 
